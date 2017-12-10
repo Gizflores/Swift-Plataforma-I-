@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95DF61041F9A58890068FC37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DF61031F9A58890068FC37 /* AppDelegate.swift */; };
+		95DF61061F9A58890068FC37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DF61051F9A58890068FC37 /* ViewController.swift */; };
+		95DF61091F9A58890068FC37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DF61071F9A58890068FC37 /* Main.storyboard */; };
+		95DF610C1F9A58890068FC37 /* Practica_6__Double.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95DF610A1F9A58890068FC37 /* Practica_6__Double.xcdatamodeld */; };
+		95DF610E1F9A58890068FC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DF610D1F9A58890068FC37 /* Assets.xcassets */; };
+		95DF61111F9A58890068FC37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DF610F1F9A58890068FC37 /* LaunchScreen.storyboard */; };
+		95DF611C1F9A58890068FC37 /* Practica_6__DoubleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DF611B1F9A58890068FC37 /* Practica_6__DoubleTests.swift */; };
+		95DF61271F9A58890068FC37 /* Practica_6__DoubleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DF61261F9A58890068FC37 /* Practica_6__DoubleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95DF61181F9A58890068FC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95DF60F81F9A58890068FC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DF60FF1F9A58890068FC37;
+			remoteInfo = "Practica 6. Double";
+		};
+		95DF61231F9A58890068FC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95DF60F81F9A58890068FC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DF60FF1F9A58890068FC37;
+			remoteInfo = "Practica 6. Double";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95DF61001F9A58890068FC37 /* Practica 6. Double.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practica 6. Double.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DF61031F9A58890068FC37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95DF61051F9A58890068FC37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95DF61081F9A58890068FC37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95DF610B1F9A58890068FC37 /* Practica_6__Double.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Practica_6__Double.xcdatamodel; sourceTree = "<group>"; };
+		95DF610D1F9A58890068FC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95DF61101F9A58890068FC37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95DF61121F9A58890068FC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DF61171F9A58890068FC37 /* Practica 6. DoubleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practica 6. DoubleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DF611B1F9A58890068FC37 /* Practica_6__DoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_6__DoubleTests.swift; sourceTree = "<group>"; };
+		95DF611D1F9A58890068FC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DF61221F9A58890068FC37 /* Practica 6. DoubleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practica 6. DoubleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DF61261F9A58890068FC37 /* Practica_6__DoubleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_6__DoubleUITests.swift; sourceTree = "<group>"; };
+		95DF61281F9A58890068FC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95DF60FD1F9A58890068FC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DF61141F9A58890068FC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DF611F1F9A58890068FC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95DF60F71F9A58890068FC37 = {
+			isa = PBXGroup;
+			children = (
+				95DF61021F9A58890068FC37 /* Practica 6. Double */,
+				95DF611A1F9A58890068FC37 /* Practica 6. DoubleTests */,
+				95DF61251F9A58890068FC37 /* Practica 6. DoubleUITests */,
+				95DF61011F9A58890068FC37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95DF61011F9A58890068FC37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95DF61001F9A58890068FC37 /* Practica 6. Double.app */,
+				95DF61171F9A58890068FC37 /* Practica 6. DoubleTests.xctest */,
+				95DF61221F9A58890068FC37 /* Practica 6. DoubleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95DF61021F9A58890068FC37 /* Practica 6. Double */ = {
+			isa = PBXGroup;
+			children = (
+				95DF61031F9A58890068FC37 /* AppDelegate.swift */,
+				95DF61051F9A58890068FC37 /* ViewController.swift */,
+				95DF61071F9A58890068FC37 /* Main.storyboard */,
+				95DF610D1F9A58890068FC37 /* Assets.xcassets */,
+				95DF610F1F9A58890068FC37 /* LaunchScreen.storyboard */,
+				95DF61121F9A58890068FC37 /* Info.plist */,
+				95DF610A1F9A58890068FC37 /* Practica_6__Double.xcdatamodeld */,
+			);
+			path = "Practica 6. Double";
+			sourceTree = "<group>";
+		};
+		95DF611A1F9A58890068FC37 /* Practica 6. DoubleTests */ = {
+			isa = PBXGroup;
+			children = (
+				95DF611B1F9A58890068FC37 /* Practica_6__DoubleTests.swift */,
+				95DF611D1F9A58890068FC37 /* Info.plist */,
+			);
+			path = "Practica 6. DoubleTests";
+			sourceTree = "<group>";
+		};
+		95DF61251F9A58890068FC37 /* Practica 6. DoubleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95DF61261F9A58890068FC37 /* Practica_6__DoubleUITests.swift */,
+				95DF61281F9A58890068FC37 /* Info.plist */,
+			);
+			path = "Practica 6. DoubleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95DF60FF1F9A58890068FC37 /* Practica 6. Double */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DF612B1F9A58890068FC37 /* Build configuration list for PBXNativeTarget "Practica 6. Double" */;
+			buildPhases = (
+				95DF60FC1F9A58890068FC37 /* Sources */,
+				95DF60FD1F9A58890068FC37 /* Frameworks */,
+				95DF60FE1F9A58890068FC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Practica 6. Double";
+			productName = "Practica 6. Double";
+			productReference = 95DF61001F9A58890068FC37 /* Practica 6. Double.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95DF61161F9A58890068FC37 /* Practica 6. DoubleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DF612E1F9A58890068FC37 /* Build configuration list for PBXNativeTarget "Practica 6. DoubleTests" */;
+			buildPhases = (
+				95DF61131F9A58890068FC37 /* Sources */,
+				95DF61141F9A58890068FC37 /* Frameworks */,
+				95DF61151F9A58890068FC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95DF61191F9A58890068FC37 /* PBXTargetDependency */,
+			);
+			name = "Practica 6. DoubleTests";
+			productName = "Practica 6. DoubleTests";
+			productReference = 95DF61171F9A58890068FC37 /* Practica 6. DoubleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95DF61211F9A58890068FC37 /* Practica 6. DoubleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DF61311F9A58890068FC37 /* Build configuration list for PBXNativeTarget "Practica 6. DoubleUITests" */;
+			buildPhases = (
+				95DF611E1F9A58890068FC37 /* Sources */,
+				95DF611F1F9A58890068FC37 /* Frameworks */,
+				95DF61201F9A58890068FC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95DF61241F9A58890068FC37 /* PBXTargetDependency */,
+			);
+			name = "Practica 6. DoubleUITests";
+			productName = "Practica 6. DoubleUITests";
+			productReference = 95DF61221F9A58890068FC37 /* Practica 6. DoubleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95DF60F81F9A58890068FC37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "DIEGO IRAM";
+				TargetAttributes = {
+					95DF60FF1F9A58890068FC37 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					95DF61161F9A58890068FC37 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95DF60FF1F9A58890068FC37;
+					};
+					95DF61211F9A58890068FC37 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95DF60FF1F9A58890068FC37;
+					};
+				};
+			};
+			buildConfigurationList = 95DF60FB1F9A58890068FC37 /* Build configuration list for PBXProject "Practica 6. Double" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95DF60F71F9A58890068FC37;
+			productRefGroup = 95DF61011F9A58890068FC37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95DF60FF1F9A58890068FC37 /* Practica 6. Double */,
+				95DF61161F9A58890068FC37 /* Practica 6. DoubleTests */,
+				95DF61211F9A58890068FC37 /* Practica 6. DoubleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95DF60FE1F9A58890068FC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DF61111F9A58890068FC37 /* LaunchScreen.storyboard in Resources */,
+				95DF610E1F9A58890068FC37 /* Assets.xcassets in Resources */,
+				95DF61091F9A58890068FC37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DF61151F9A58890068FC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DF61201F9A58890068FC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95DF60FC1F9A58890068FC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DF61061F9A58890068FC37 /* ViewController.swift in Sources */,
+				95DF61041F9A58890068FC37 /* AppDelegate.swift in Sources */,
+				95DF610C1F9A58890068FC37 /* Practica_6__Double.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DF61131F9A58890068FC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DF611C1F9A58890068FC37 /* Practica_6__DoubleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DF611E1F9A58890068FC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DF61271F9A58890068FC37 /* Practica_6__DoubleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95DF61191F9A58890068FC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95DF60FF1F9A58890068FC37 /* Practica 6. Double */;
+			targetProxy = 95DF61181F9A58890068FC37 /* PBXContainerItemProxy */;
+		};
+		95DF61241F9A58890068FC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95DF60FF1F9A58890068FC37 /* Practica 6. Double */;
+			targetProxy = 95DF61231F9A58890068FC37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95DF61071F9A58890068FC37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DF61081F9A58890068FC37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95DF610F1F9A58890068FC37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DF61101F9A58890068FC37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95DF61291F9A58890068FC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95DF612A1F9A58890068FC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95DF612C1F9A58890068FC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practica 6. Double/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "h.Practica-6--Double";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95DF612D1F9A58890068FC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practica 6. Double/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "h.Practica-6--Double";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95DF612F1F9A58890068FC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practica 6. DoubleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "h.Practica-6--DoubleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica 6. Double.app/Practica 6. Double";
+			};
+			name = Debug;
+		};
+		95DF61301F9A58890068FC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practica 6. DoubleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "h.Practica-6--DoubleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica 6. Double.app/Practica 6. Double";
+			};
+			name = Release;
+		};
+		95DF61321F9A58890068FC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practica 6. DoubleUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "h.Practica-6--DoubleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practica 6. Double";
+			};
+			name = Debug;
+		};
+		95DF61331F9A58890068FC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practica 6. DoubleUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "h.Practica-6--DoubleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practica 6. Double";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95DF60FB1F9A58890068FC37 /* Build configuration list for PBXProject "Practica 6. Double" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DF61291F9A58890068FC37 /* Debug */,
+				95DF612A1F9A58890068FC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DF612B1F9A58890068FC37 /* Build configuration list for PBXNativeTarget "Practica 6. Double" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DF612C1F9A58890068FC37 /* Debug */,
+				95DF612D1F9A58890068FC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DF612E1F9A58890068FC37 /* Build configuration list for PBXNativeTarget "Practica 6. DoubleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DF612F1F9A58890068FC37 /* Debug */,
+				95DF61301F9A58890068FC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DF61311F9A58890068FC37 /* Build configuration list for PBXNativeTarget "Practica 6. DoubleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DF61321F9A58890068FC37 /* Debug */,
+				95DF61331F9A58890068FC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95DF610A1F9A58890068FC37 /* Practica_6__Double.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95DF610B1F9A58890068FC37 /* Practica_6__Double.xcdatamodel */,
+			);
+			currentVersion = 95DF610B1F9A58890068FC37 /* Practica_6__Double.xcdatamodel */;
+			path = Practica_6__Double.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95DF60F81F9A58890068FC37 /* Project object */;
+}
